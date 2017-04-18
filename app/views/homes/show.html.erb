@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Vin:</strong>
+  <%= @home.vin %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @home.year %>
+</p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @home.make %>
+</p>
+
+<p>
+  <strong>Modle:</strong>
+  <%= @home.modle %>
+</p>
+
+<p>
+  <strong>Engine type:</strong>
+  <%= @home.engine_type %>
+</p>
+
+<p>
+  <strong>License plate:</strong>
+  <%= @home.license_plate %>
+</p>
+
+<%= link_to 'Edit', edit_home_path(@home) %> |
+<%= link_to 'Back', homes_path %>
