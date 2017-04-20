@@ -1,0 +1,35 @@
+i sol ruby and java script in same text 
+
+//cod in javascript
+//q7
+a=[1,2,3,4];
+b=["red","green","blue","brown"];
+
+  console.log(merge(a,b))
+ function merge(array1, array2) {
+if (array1.length == array2.length) {
+   var c = [];
+   for (var i = 0; i < array1.length; i++) {
+       c.push(array1[i], array2[i]);
+   }
+   return c ;
+}
+return null;
+
+
+.........................................................
+
+#cod ruby 
+
+
+#q7ruby
+
+a=[1,2,3,4]
+b=["red","green","blue","brown"]
+ c=[]
+a.zip(b).each do |x,y|
+ 
+  c.push(x,y)
+  
+end
+puts "#{c}"
