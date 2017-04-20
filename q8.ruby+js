@@ -1,0 +1,104 @@
+#i sol javascript and ruby in same txt
+
+
+
+#quation 8 ruby
+
+a=[1,2,3]
+b=[4,5,6]
+c=[7,8,9]
+
+puts "array a is = #{a}"
+puts "array b is = #{b}"
+puts "array c is = #{c}","----------------------"
+
+two=[]
+three=[]
+five=[]
+
+i2=0;
+i3=0;
+i5=0;
+
+(a + b + c).each do |e|  
+  if e%2==0
+  two << e
+  end
+  if e%3==0
+  three << e
+  end
+  if e%5==0
+  five << e
+  end
+end
+
+puts "array divisble by 2 is = #{two}"
+puts "array divisble by 3 is = #{three}"
+puts "array divisble by 5 is = #{five}"
+"....................................................................................................................."
+//cod in js
+
+//q8
+a=[1,2,3];
+b=[4,5,6];
+c=[7,8,9];
+
+console.log('array a is = ', a);
+console.log('array b is = ', b);
+console.log('array c is = ', c,'\n-------------------------');
+
+two=[];
+three=[];
+five=[];
+
+var i2=0;
+var i3=0;
+var i5=0;
+
+for (var i=0;i<a.length;i++)
+{
+  if (a[i]%2===0)
+  {    two[i2]=a[i];
+    i2=i2+1;
+  }
+  if(b[i]%2===0)
+  {    two[i2]=b[i];
+    i2=i2+1;
+  }
+  if(c[i]%2===0)
+  {    two[i2]=c[i];
+    i2=i2+1;
+  }
+  // three
+  if (a[i]%3===0)
+  {    three[i3]=a[i];
+    i3+=1;
+  }
+  if(b[i]%3===0)
+  {    three[i3]=b[i];
+    i3+=1;
+  }
+  if(c[i]%3===0)
+  {    three[i3]=c[i];
+    i3+=1;
+  }
+  //five
+  if (a[i]%5===0)
+  {    five[i5]=a[i];
+    i5+=1;
+  }
+  if(b[i]%5===0)
+  {    five[i5]=b[i];
+    i5+=1;
+  }
+  if(c[i]%5===0)
+  {    five[i5]=c[i];
+    i5+=1;
+  }
+}
+
+console.log('array divisble by 2 is = ', two);
+console.log('array divisble by 3 is = ', three);
+console.log('array divisble by 5 is = ', five);
+
+
